@@ -1,0 +1,289 @@
+<body class= "p-3 mb-2 bg-black text-white">
+<header>
+    <img class="encabezado" src="../imagen/logos/fondopioneer.jpg" alt="PIONEER">
+</header>
+          <nav><div class="padre-flex">
+            <a href="/"><button type="button"class="btn btn-primary btn-lg">Inicio</button></a>
+            <a href="/parlantes"><button type="button" class="btn btn-primary btn-lg">parlantes</button></a>
+            <a href="/subwofers"><button type="button" class="btn btn-primary btn-lg">subwofers</button></a>
+            <a href="/alarmas"><button type="button" class="btn btn-primary btn-lg">Alarmas</button></a>
+            <a href="/accesorios"><button type="button" class="btn btn-primary btn-lg">Accesorios</button></a>
+            <a href="/estereos"><button type="button" class="btn btn-primary btn-lg">estereos</button></a>
+            <a href="/amplificadores"><button type="button" class="btn btn-primary btn-lg">amplificadores</button></a>
+            <a href="/contacto"><button type="button" class="btn btn-primary btn-lg">Contacto</button></a>
+            </div>
+        </nav> 
+    <h1 class="titulo"> Estereos simple din y multimedias con navegacion </h1>
+    <div class="div_h2"> <h2 >  Estereos simple din </h2>  </div>
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col">
+                      <img class="imageni3" src="../imagen/estereos multimedia/pioneer-bt.webp"  alt="kiker 6x9">
+                      <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                      <p>Pioneer MVH S215BT con USB y bluetooth
+                        Con puerto USB.
+                        Sintoniza FM, AM.
+                        Tecnología bluetooth incluida.
+                        Funciona con comando de voz.
+                        Cuenta con adaptador de entrada auxiliar.
+                        El panel frontal es desmontable.
+                        La potencia máxima es de 50 W.
+                        Ecualizador de bandas incorporado.
+                        Compatibilidad con Android.
+                        Dimensiones: 178 mm de ancho, 50 mm de alto y 97 mm de profundidad. </p>
+                    </div>
+                    <div class="col">
+                      <img class="imageni3" src="../imagen/estereos multimedia/combopioneer.webp" alt="jbl gto">
+                      <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                       <p>Combo pioneer
+                          Bluetooth para Llamada de Manos Libres & Audio Inalámbrico
+                          Puerto USB Iluminado (Frontal: Capacidad de Manejo 1 A de Corriente)
+                          Reproducción MP3/WMA/WAV
+                          Amplificador MOSFET 50 W x 4 Máx. 22 W x 4 (50 a 15,000Hz a 4 O) RMS
+                          parlantes:
+                          Tamaño: 6 1/2 (16cm)
+                          Potencia de Música Máx: 200w
+                          Potencia RMS: 25w
+                          </p>
+                    </div>
+                    <div class="col">
+                      <img class="imageni3" src="../imagen/estereos multimedia/pioneer4250.webp" alt="pioneer 4250">
+                      <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                       <p>Con puerto USB.
+                          Sintoniza FM, AM.
+                          Tecnología bluetooth incluida.
+                          Permite conectar más de un dispositivo a la vez.
+                          Funciona con comando de voz.
+                          Compatible con Spotify y Pioneer Smart Sync.
+                          Cuenta con adaptador de entrada auxiliar.
+                          El panel frontal es desmontable.
+                          Posee reproductor de CD.
+                          Viene con control remoto.
+                          La potencia máxima es de 50 W.
+                          Ecualizador de bandas incorporado.
+                          Compatibilidad con Android y iOS.
+                          Dimensiones: 178 mm de ancho, 50 mm de alto y 165 mm de profundidad.</p>
+                    </div>
+                    <div class="col">
+                      <img class="imageni3" src="../imagen/estereos multimedia/pioneercel.webp" alt="pioneer">
+                      <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                       <p>Pioneer Bluetooth Gps Por App Waze Spotify 1 Din C10
+                          Bluetooth para Llamada de Manos Libres y Audio Inalámbrico
+                          Conexión de dos teléfonos todo el tiempo
+                          Panel frontal desmontable
+                          Alineación de tiempo manual. RDS radio
+                          Ecualizador GEQ de 13 bandas GEQ de 31 bandas (con aplicación PSS)
+                          Recuperador de sonido avanzado
+                          Recuperador de sonido avanzado para audio inalámbrico Bluetooth
+                          Sonido súper ‘Todoroki’ (con la aplicación Pioneer Smart Sync)
+                          Simulación en vivo (con la aplicación Pioneer Smart Sync)
+                       </p>
+                    </div>
+                    
+                    <div class="col">
+                      <img class="imageni3" src="../imagen/estereos multimedia/multimediahonda.webp" alt="mutimedia honda">
+                      <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                       <p>Sistema Operativo Android 9.1
+                          Pantalla táctil 2.5D de vidrio templado y resolución 1024x600
+                          El sistema enciende en escasos segundos
+                          Antena GPS para navegar Online y Offline (IGO, HERE, GOOGLE MAPS, etc.)
+                          Procesador QUAD-CORE, 1GB de RAM y 16GB de ROM
+                          MIRRORLINK / PHONELINK (espejo pantalla)
+                          Radio FM/AM
+                          Compatibilidad con comando al volante / satelital. Excepto comando de voz
+                          Reproductor de AUDIO y VÍDEO, sonido 4x45w
+                          Bluetooth compatible con Android y IPhone
+                          PlayStore para descarga de aplicaciones (Spotify, Youtube, etc.)
+                          Compatible con conexión WIFI</p>
+                    </div>
+                    <div class="col">
+                      <img class="imageni3" src="../imagen/estereos multimedia/centralcorolla.webp" alt="multimedia corolla">
+                      <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                       <p>Sistema Operativo Android 9.1
+                          Pantalla táctil 2.5D de vidrio templado y resolución 1024x600
+                          El sistema enciende en escasos segundos
+                          Antena GPS para navegar Online y Offline (IGO, HERE, GOOGLE MAPS, etc.)
+                          Procesador QUAD-CORE, 1GB de RAM y 16GB de ROM
+                          MIRRORLINK / PHONELINK (espejo pantalla)
+                          Radio FM/AM
+                          Compatibilidad con comando al volante / satelital. Excepto comando de voz
+                          Reproductor de AUDIO y VÍDEO, sonido 4x45w
+                          Bluetooth compatible con Android y IPhone
+                          PlayStore para descarga de aplicaciones (Spotify, Youtube, etc.)
+                          Compatible con conexión WIFI</p>
+                    </div>
+                    <div class="col">
+                      <img class="imageni3" src="../imagen/estereos multimedia/multimediaranger.webp" alt="multimedia ranger">
+                      <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                       <p>Sistema Operativo Android 9.1
+                          Pantalla táctil 2.5D de vidrio templado y resolución 1024x600
+                          El sistema enciende en escasos segundos
+                          Antena GPS para navegar Online y Offline (IGO, HERE, GOOGLE MAPS, etc.)
+                          Procesador QUAD-CORE, 1GB de RAM y 16GB de ROM
+                          MIRRORLINK / PHONELINK (espejo pantalla)
+                          Radio FM/AM
+                          Compatibilidad con comando al volante / satelital. Excepto comando de voz
+                          Reproductor de AUDIO y VÍDEO, sonido 4x40w
+                          Bluetooth compatible con Android y IPhone
+                          PlayStore para descarga de aplicaciones (Spotify, Youtube, etc.)
+                          Compatible con conexión WIFI</p>
+                    </div>
+                    <div class="col">
+                      <img class="imageni3" src="../imagen/estereos multimedia/centralwv.webp" alt="central con camara">
+                      <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                       <p>OS: ANDROID 12
+                          CPU: Alta calidad Quad-core 1,5 GHz Cortex-A7procesador con gran rendimiento.
+                          GPU: Con Mali-600MP4 GPU de cuatro núcleos, Es compatible con pantalla dual para la más alta resolución.
+                          RAM: 2GB de memoria RAM.
+                          SALIDA DE AUDIO: 4x50
+                          Disco duro: 32 GB
+                          Pantalla: 9 pulgadas.
+                          Pantalla multitáctil con un funcionamiento suave, alta sensibilidad e interacción abundante
+                           para una mejor visión de tu camino por delante.
+                        </p>
+                    </div>
+                  </div>
+                </div> 
+                <div class="card mb-4" style="max-width:300%;">
+                  <div class="row g-0 col-0 bg-black">
+                    <div class="col-md-4">
+                      <img class="imageni2" src= "../imagen/estereos multimedia/hiswuan1.jpg" class="img-fluid rounded-start bg-black" alt="rango extendido"> 
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body bg-black">
+                        <h5 class="card-title">Multimedia compatible con mas de 300 vehiculos</h5>
+                        <p class="card-text">
+                          Sistema Operativo Android 9.1
+                          + Pantalla táctil 2.5D de vidrio templado y resolución 1024x600, El sistema enciende en escasos segundos
+                           Antena GPS para navegar Online y Offline (IGO, HERE, GOOGLE MAPS, etc.)
+                           Procesador QUAD-CORE, 1GB de RAM y 16GB de ROM
+                           MIRRORLINK / PHONELINK (espejo pantalla) Radio FM/AM
+                           Compatibilidad con comando al volante / satelital. Excepto comando de voz
+                           Reproductor de AUDIO y VÍDEO, sonido 4x40w
+                           Bluetooth compatible con Android y IPhone
+                           PlayStore para descarga de aplicaciones (Spotify, Youtube, etc.)
+                           Compatible con conexión WIFI
+                       
+                        </p>
+                        <p class="card-text"><small class="text-muted">consulta por tu modelo de vehiculo</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+                  </div>
+                <footer>
+                  <div class="whatsapp">
+                        <a href="https://wa.me/message/JTPOEE7NKLP6J1"target="_blanck"><img class="boton-redes" src="../imagen/botones/was5.png"
+                          alt="whatsapp">
+                        </a>
+                        <a href="https://www.instagram.com/gmperformancezarate/"target="_blanck"><img class="boton-insta" src="../imagen/botones/insta12.png"
+                          alt="instagram">
+                        </a>
+                        <div>
+                        <img class="img-tarjetas" src="../imagen/botones/amex@2x.png" alt="american">
+                        <img class="img-tarjetas" src="../imagen/botones/banelco@2x.png" alt="banelco">
+                        <img class="img-tarjetas" src="../imagen/botones/cabal@2x.png" alt="cabal">
+                        <img class="img-tarjetas" src="../imagen/botones/mastercard@2x.png" alt="master">
+                        <img class="img-tarjetas" src="../imagen/botones/mercadopago@2x.png" alt="mercadopago">
+                        <img class="img-tarjetas" src="../imagen/botones/visa@2x.png" alt="visa">
+                      </div>
+                  </div>
+          </footer>        
+</body>
+</html>

@@ -1,0 +1,173 @@
+.header{
+  background-color: #01090e;
+}
+h1 {
+  font-style: oblique;
+  font-family: 'Times New Roman', Times, serif;
+  color: #01090e;
+  text-align: center; }
+h2 {
+  margin-top: 0%;
+  color: rgb(10, 6, 0);
+  padding: 0;
+  padding-left: 0;
+  text-align: center;
+  font-size: 25px; }
+footer {
+  background-color: #d40707;
+  height: auto;
+  padding-top: 1%;
+  padding: 20px; }
+
+ footer {
+    ul li {
+      text-transform: none;
+      text-decoration: none;
+      text-overflow: unset; }
+      text-overflow: unset; 
+      text-emphasis: none;
+    }
+    .map-responsive{
+      overflow:hidden;
+      padding-bottom:56.20%;
+      position:relative;
+      height:0;
+    
+    }
+    
+    .map-responsive iframe{
+    
+      left:0;
+      top:0;
+      height:500px;
+      width:100%;
+      position:absolute;
+    
+    }
+    
+    .encabezado {
+      width: 100%;
+     ul li {
+      header {
+        display: none; }
+      .logos {
+        display: none; } }
+        display: none; }
+      .titulo5 {
+        display: none;
+      }
+      
+    
+    a:hover {
+      font-size: 30px;
+      font-weight: bold; }
+    
+    h1:hover {
+      color: yellowgreen; }
+    
+    .imageni3:hover {
+      -webkit-transform:scale(1.3);
+      transform:scale(1.3);
+    
+    }
+    
+    .padre-flex {
+      margin-top: 3%;
+     h1:hover {
+      align-content: center;
+      height: 100%;
+      width: 100%; }
+     }
+      .imageni0 {
+        width: 100%;
+        height: 270px;
+      }
+    
+    .imageni1 {
+      margin: auto 0%;
+     h1:hover {
+      width: 100%;
+      height: 250px;
+      background-color: #080808; }
+
+      .imageni2 {
+        margin: auto 0%;
+        padding: auto;
+        width: 100%;
+        height: 250px;
+        background-color: #080808; }
+
+      .datos{
+        color: rgb(64, 198, 43);
+      padding: 0;
+      padding-left: 0;
+      text-align: center;
+      font-size: 40px; 
+      font-style: oblique;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+      }
+    
+      }
+    
+    .imageni3 {
+      width: 260px;
+     h1:hover {
+      padding: 0;
+      padding-left: 0;
+      text-align: center;
+      font-size: 50px; }
+      font-size: 50px; 
+      font-style: oblique;
+    
+    }
+    .titulo5 {
+      color: rgb(246, 248, 250);
+      padding: 0;
+      padding-left: 0;
+      text-align: center;
+      font-size: 40px; 
+      font-style: oblique;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    
+    }
+    .carousel, .carousel-inner > .item > img {
+      height: 560px;
+      width: 800px; }
+    
+    .abs-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 80vh; }
+    
+    .boton-redes {
+      width: 70px;
+      height: 70px; }
+    
+    .boton-insta {
+      width: 90px;
+      height: 100px;
+      padding-top: 10px; }
+    
+    .img-tarjetas {
+      width: 60px;
+      height: 60px; }
+      
+      .card-text {
+        color: blanchedalmond;
+      }
+      .card-title {
+        color: #d40707;
+      }
+      .div_h2 {
+        background-color: red;
+        border: double; }
+
+      .message{
+        font-style: oblique;
+        font-family: 'Times New Roman', Times, serif;
+        color: chartreuse;
+        font-size: 40px; 
+      }
+    
+      

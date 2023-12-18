@@ -1,0 +1,443 @@
+ {{{body}}}
+ 
+
+<body class="p-3 mb-2 bg-black text-white"></body>
+    <header>
+        <img class="encabezado" src="../imagen/logos/audi2.jpg" alt="publicidad sparco">
+              </header>      
+        <nav>
+          <div class="padre-flex">
+          <a href="/"><button type="button"class="btn btn-primary btn-lg">Inicio  </button></a>
+          <a href="/parlantes"><button type="button" class="btn btn-primary btn-lg">parlantes</button></a>
+          <a href="/subwofers"><button type="button" class="btn btn-primary btn-lg">subwofers</button></a>
+          <a href="/alarmas"><button type="button" class="btn btn-primary btn-lg">Alarmas</button></a>
+          <a href="/accesorios"><button type="button" class="btn btn-primary btn-lg">Accesorios</button></a>
+          <a href="/estereos"><button type="button" class="btn btn-primary btn-lg">estereos</button></a>
+          <a href="/amplificadores"><button type="button" class="btn btn-primary btn-lg">amplificadores</button></a>
+          <a href="/contacto"><button type="button" class="btn btn-primary btn-lg">Contacto</button></a>
+        </div>
+       </nav>
+    <h1 class="titulo" >Tecnologia en tu vehiculo</h1>
+                <h2 class="div_h2"> Iluminacion </h2>
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <img class="imageni3" src="../imagen/accesorios/creeh11.jpeg"  alt="cree led h11 20000 lumenes">
+                    <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                    <p>LED-HL [H8/H11/H16]
+                       Diseño compacto para mejor instalación
+                       Luz blanca elegante de 6500 K
+                       Compatible con la mayoría de coches </p>
+                  </div>
+                  <div class="col">
+                    <img class="imageni3" src="../imagen/accesorios/creeh4.webp" alt="cree led h4 20000 lumenes ">
+                    <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                     <p>  Tipo de conector : H4
+                          Voltaje : 12 V
+                          Watts : 21 Watts
+                          Diseño compacto para mejor instalación
+                          Luz blanca elegante de 6500 K
+                          Compatible con la mayoría de coches  </p>
+                  </div>
+                  <div class="col">
+                    <img class="imageni3" src="../imagen/accesorios/creeh7.jpeg" alt="cree led h7 20000 lumenes">
+                    <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                     <p>LED-HL [H7]
+                        Diseño compacto para mejor instalación
+                        Luz blanca elegante de 6500 K
+                        Compatible con la mayoría de coches</p>
+                  </div>
+                  <div class="col">
+                    <img class="imageni3" src="../imagen/accesorios/S6-PLUS-H4.jpg" alt="cree led h4 16000 lumenes">
+                    <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                     <p>Vida útil: 3000 horas
+                        Temperatura: 6500k
+                        Color de luz: Blanca
+                        Consumo: 36w
+                        Voltaje: 12v 
+                        Encendido: Instantáneo
+                        Refrigeración: Cooler en la base</p>
+                  </div>
+                  <div class="col">
+                    <img class="imageni3" src="../imagen/accesorios2/kith4cree.webp" alt="unidad sellada">
+                    <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                     <p>Lampára CREE LED H7
+                      Temperatura de color: 6000K (Luz Blanca)
+                      Voltaje de funcionamiento: 12V
+                      Potencia de salida: 25W
+                      Con cooler de alta eficiencia
+                      Distribución de Luz mejorada
+                      Brillo superior
+                      Larga vida útil de hasta 5000 h</p>
+                  </div>
+                  <div class="col">
+                    <img class="imageni3" src="../imagen/accesorios2/faroauxiliar2.jpg" alt="unidad sellada">
+                    <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                     <p>Medidas: 16,5 x 8 x 6,6 Cm
+                        Voltaje de trabajo: 12/24 Volts
+                        Consumo: 120 Watts
+                        Color: Luz LED blanco frío.
+                        Leds: 40 Leds
+                        Haz de luz: Spot/flood combo
+                        Modos de luz: Alta
+                        Lúmenes: 12000
+                        Modos de luz: Fija</p>
+                  </div>
+                  <div class="col">
+                    <img class="imageni3" src="../imagen/accesorios2/tiraled.jpg" alt="tira led">
+                    <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                     <p>  KIT RGB
+                          RED(ROJO) GREEN (VERDE) BLUE (AZUL
+                          5 METROS(4,5 tira led mas 0,50 de cable conector)
+                          300 LEDS
+                          VOLTAJE 12 VDC
+                          MODELO DE LED 2835
+                          ALTA POTENCIA
+                          DIMERIZABLE
+                          CONTROL UNIVERSAL
+                      </p>
+                  </div>
+                  <div class="col">
+                    <img class="imageni3" src="../imagen/accesorios2/barraled.jpg" alt="barra sellada">
+                    <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                     <p>40 Leds Epistar de 120 watts
+                        Alta luminosidad.
+                        Resistente al agua, soporta golpes y polvo.
+                        Totalmente metálico.
+                        Incluye accesorios para conexión.
+                        9600 lúmenes.
+                        Temperaturas de color: 6000k.
+                        Material: Fundición a presión de aluminio.
+                        Vida útil: 30000 horas.
+                        Color: Blanco
+                        Temperatura de color: Blanco
+                        50,6 cm de largo</p>
+                  </div>
+                </div>
+              </div> 
+            <div >           
+            </div>
+            <div>
+              <div class="card mb-4" style="max-width:300%;">
+                <div class="row g-0 col-0 bg-black">
+                  <div class="col-md-4">
+                    <img class="imageni0" src= "../imagen/accesorios/OBD2.webp" class="img-fluid rounded-start bg-black" alt="pantalla parabrisas">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body bg-black">
+                      <h5 class="card-title">Obdii Pantalla Reflejante</h5>
+                      <p class="card-text">
+                        Conectá el HUD al puerto OBD de tu auto y convertilo en un display de 5.5'' de última generación! Tendrás en el parabrisas toda la información que necesitás para salir a la ruta tranquilo y seguro.
+                        Proyecta en el parabrisas velocidad, nivel de agua, aceite, batería, temporizador, distancia, consumo de combustible, estado del motor, etc
+                        Auto adaptables a los modelos de vehículos compatibles con OBD II o EUOBD (sistema de diagnóstico automático del vehículo).
+                        Muestra en pantalla Velocidad del vehículo, velocidad del motor, temperatura del agua (voltaje/posición del acelerador/ángulo de avance de encendido/tiempo de aceleración de 100 km), consumo instantáneo de combustible,
+                         consumo medio de combustible, rango de crucero, combustible bajo, falla del motor.
+                      </p>
+                      <p class="card-text"><small class="text-muted">consultar vehiculos compatibles </small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+                </div>
+                <h2  class="div_h2">Accesorios de interior</h2>
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <img class="imageni3" src="../imagen/accesorios2/pomosparco1.jpg"  alt="pomo sparco">
+                    <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                    <p>Perilla Bocha Palanca Cambio Universal Sparco ORIGINAL Cromada con Azul
+                      Adaptable a todos los palos de engranaje estándar entre 8 mm y 12 mm de diámetro
+                      Fabricado en aluminio y goma, que cuenta con tornillos ojales ocultos para una apariencia más limpia y ajuste seguro </p>
+                  </div>
+                  <div class="col">
+                    <img class="imageni3" src="../imagen/accesorios2/pomosparco2.jpg" alt="pomo sparco">
+                    <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                     <p>Perilla Pomo Palanca Cambio Universal Sparco Negra / Cromada
+                        Fabrica en 100% aluminio
+                        Marca: SPARCO ORIGINAL
+                        Color: Cromado y negro
+                        Facil de instalar y adaptable a todo tipo de vehiculo
+                        Diseño Deportivo</p>
+                  </div>
+                  <div class="col">
+                    <img class="imageni3" src="../imagen/accesorios2/pomosparco3.jpg" alt="pomo sparco">
+                    <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                     <p>Perilla Palanca Pomo Cambio Universal Sparco ORIGINAL Racing Aluminio
+                        Fabrica en 100% aluminio
+                        Marca: SPARCO ORIGINAL
+                        Color: Cromado y negro
+                        Medidas Altura 85mm / 42mm de diametro
+                        Facil de instalar y adaptable a todo tipo de vehiculo (instrucciones dentro del packagin)
+                        Diseño Deportivo</p>
+                  </div>
+                  <div class="col">
+                    <img class="imageni3" src="../imagen/accesorios2/soportesp1.jpg" alt="soporte para celular sparco">
+                    <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                     <p> soporte sparco original Rotación 360º
+                          Apto para todos los smartphones
+                          Clip Auto ajustable con Silicona antideslizante
+                          Ancho máximo: 8 Cm
+                          Ancho mínimo: 4.5 Cm
+                          Alto mínimo: 8.5 Cm
+                          Alto máximo: No tiene</p>
+                  </div>
+                  <div class="col">
+                    <img class="imageni3" src="../imagen/accesorios2/soportesp2.jpg" alt="soporte sparco">
+                    <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                     <p>soporte sparco original Rotación 360º
+                        Apto para todos los smartphones
+                        Clip Auto ajustable con Silicona antideslizante
+                        Ancho máximo: 8 Cm
+                        Ancho mínimo: 4.5 Cm
+                        Alto mínimo: 8.5 Cm
+                        Alto máximo: No tiene</p>
+                  </div>
+                  <div class="col">
+                    <img class="imageni3" src="../imagen/accesorios2/soportesp3.jpg" alt="soporte chico">
+                    <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                     <p>soporte sparco original Rotación 360º
+                        Apto para todos los smartphones
+                        Clip Auto ajustable con Silicona antideslizante
+                        Ancho máximo: 8 Cm
+                        Ancho mínimo: 4.5 Cm
+                        Alto mínimo: 5.5 Cm
+                        <p>
+                  </div>
+                  <div class="col">
+                    <img class="imageni3" src="../imagen/accesorios2/sparcoalfombra.webp" alt="alfombra">
+                    <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                     <p>Cubre alfombra Sparco original
+                        goma alta calidad y resistencia 
+                        cubre alfombra de 4 piezas
+                     </p>
+                  </div>
+                  <div class="col">
+                    <img class="imageni3" src="../imagen/accesorios2/setsparco.webp" alt="set sparco">
+                    <p class="card-text text-sm">Code: {{this.code}}</p>
+                    <p class="card-text text-sm">Price: ${{this.price}}</p>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+              {{#if ../user}}
+              <form action="/api/carts/{{../user.cartId}}/product/{{this._id}}/increase" method="post">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </form>
+              {{else}}
+              <a href="login">
+                <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+              </a>
+              {{/if}}
+            </div>
+                     <p>Cubre alfombra Sparco original
+                        goma alta calidad y resistencia detalles en gris. 
+                        Cubre alfombra de 4 piezas</p>
+                  </div>
+                </div>
+              </div> 
+              <footer>
+                <div class="whatsapp">
+                      <a href="https://wa.me/message/JTPOEE7NKLP6J1"target="_blanck"><img class="boton-redes" src="../imagen/botones/was5.png"
+                        alt="whatsapp">
+                      </a>
+                      <a href="https://www.instagram.com/gmperformancezarate/"target="_blanck"><img class="boton-insta" src="../imagen/botones/insta12.png"
+                        alt="instagram">
+                      </a>
+                      <div>
+                      <img class="img-tarjetas" src="../imagen/botones/amex@2x.png" alt="american">
+                      <img class="img-tarjetas" src="../imagen/botones/banelco@2x.png" alt="banelco">
+                      <img class="img-tarjetas" src="../imagen/botones/cabal@2x.png" alt="cabal">
+                      <img class="img-tarjetas" src="../imagen/botones/mastercard@2x.png" alt="master">
+                      <img class="img-tarjetas" src="../imagen/botones/mercadopago@2x.png" alt="mercadopago">
+                      <img class="img-tarjetas" src="../imagen/botones/visa@2x.png" alt="visa">
+                    </div>
+                </div>
+        </footer>        
+           
+             
+
+
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+<body class="header" >
+    
+
+<h1>Pagina de Perfil</h1>
+<a href="/accesorios"><button type="button"class="btn btn-primary btn-lg">Ir de compras </button></a>
+
+<p class="message" >Bienvenido: {{user.first_name}}</p>{{#if error}}
+<div class="alert alert-danger mx-5">{{error}}</div>
+{{/if}}
+
+{{#if message}}
+<div class="alert alert-info mx-5">{{message}}</div>
+{{/if}}
+
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+
+                    <h2 class="text-center mb-4">Welcome, {{user.firstName}} {{user.lastName}}!</h2>
+
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item">
+                            <strong>Email:</strong> {{user.email}}
+                        </li>
+                        <li class="list-group-item">
+                            
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Role:</strong> {{user.role}}
+                        </li>
+                    </ul>
+
+                    <a href="/auth/logout" id="logout-button" class="btn btn-danger btn-block">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
